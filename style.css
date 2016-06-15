@@ -13,11 +13,13 @@
   content:"";
   width: 0;
   height: 0;
-  border-left: 5px solid black;
-  border-right: 5px solid black;
-  border-top: 5px solid black;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #cacaca;
   position:absolute;
-  right:0px;
+  margin-top:  -5px;
+  right:5px;
+
 }
 
 .octocat >a{
@@ -43,6 +45,7 @@ border-radius: 5px;
   border:none;
 
 
+
 }
 
 ul {
@@ -54,11 +57,13 @@ ul {
   display:inline-block;
   float:right;
 
+
 }
 
 .image-caption{
   float:right;
   color:#777777;
+
 }
 
 .image-number:before{
@@ -73,9 +78,11 @@ a{
 
 .image-number {
   color: #777777;
+
 }
 
 .image-footer{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #cacaca;
   height: 35px;
+  padding-bottom: 15px;
 }
